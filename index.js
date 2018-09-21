@@ -13,7 +13,7 @@ LevelDownPouch.valid = function () {
   return true;
 };
 
-LevelDownPouch.use_prefix = false;
+LevelDownPouch.use_prefix = true;
 module.exports = function (PouchDB) {
   PouchDB.adapter('fs', LevelDownPouch, true);
 };
