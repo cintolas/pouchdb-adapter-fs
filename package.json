@@ -14,9 +14,9 @@
   "author": "Nolan Lawson <nolan.lawson@gmail.com> (https://nolanlawson.com)",
   "license": "Apache-2.0",
   "dependencies": {
-    "fsdown": "",
+    "fsdown": "^2.0.1",
     "js-extend": "^1.0.1",
-    "pouchdb-adapter-leveldb-core": ""
+    "pouchdb-adapter-leveldb-core": "6.2.0"
   },
   "files": [],
   "devDependencies": {
