@@ -1,5 +1,5 @@
-import CoreLevelPouch from 'pouchdb-adapter-leveldb-core';
-import  fsdown = from 'fsdown';
+const CoreLevelPouch  = require('pouchdb-adapter-leveldb-core');
+var fsdown =  require('fsdown');
 
 
 function LevelDownPouch(opts, callback) {
