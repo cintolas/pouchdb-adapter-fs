@@ -17,6 +17,6 @@ LevelDownPouch.valid = function () {
 };
 LevelDownPouch.use_prefix = false;
 
-export default function (PouchDB) {
+module.exports = function (PouchDB) {
   PouchDB.adapter('fs', LevelDownPouch, true);
 }
